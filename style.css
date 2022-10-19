@@ -58,17 +58,27 @@ h1{
     font-style: italic;
     line-height: 2rem;
 }
-.container h2:nth-of-type(2){
+.licoes h2:nth-of-type(2){
     margin-top: 1rem;
 }
 .container-article{
     margin-top: 2rem;
+}
+.container-article h3{
+    font-size: 1.8rem;
+}
+.container-article p{
+    font-size: 1.4rem;
+    line-height: 2rem;
 }
 footer{
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 1rem;
     font-size: 1.4rem;
+}
+h3{
+    margin-top: 1rem;
 }
 footer a{
     text-decoration: none;
