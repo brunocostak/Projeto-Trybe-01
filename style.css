@@ -1,3 +1,7 @@
+/* OBSERVAÇÃO! */
+/* Layout construído com a boa prática do mobile first */
+/* Final do style.css terá os códigos para tablet, e desktop */
+
 *{
     padding: 0;
     margin: 0;
@@ -19,6 +23,7 @@ body{
     font-family: montserrat, sans-serif;
 }
 body::before{
+    /* tarja verde escura no header */
     content: "";
     background-color: #2fa97c;
     display: block;
@@ -33,12 +38,14 @@ header{
     z-index: 10;
 }
 h1{
+    /* estilização do titulo do cabeçalho */
     font-size: 2.4rem;
     text-align: center;
     font-weight: bold;
     color: white;
 }
 .container{
+    /* alinhamento e estilização da primeira seção da página */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,13 +53,17 @@ h1{
     margin-top: 7rem;
 }
 .container img{
+    /* configuração do tamanho da imagem */
     width: 100vw;
     padding: 0 1.5rem 0;
+    /* fim da estilização da primeira seção */
 }
 .licoes{
+    /* inicida da estilização da segunda seção */
     margin-top: 2rem;
 }
 .licoes ul li{
+    /* estilização dos itens da lista dentro da segunda seção */
     list-style: none;
     font-size: 1.4rem;
     font-style: italic;
@@ -60,8 +71,10 @@ h1{
 }
 .licoes h2:nth-of-type(2){
     margin-top: 1rem;
+    /* fim da estilização da segunda seção */
 }
 .container-article{
+    /* estilização da terceira seção */
     margin-top: 2rem;
 }
 .container-article h3{
@@ -73,8 +86,10 @@ h1{
 }
 h3{
     margin-top: 1rem;
+    /* fim da estilização da terceira seção */
 }
 table{
+    /* estilização da tabela */
     margin-top: 20px;
 }
 td, th{
@@ -83,8 +98,10 @@ td, th{
 }
 table th:nth-of-type(1){
     background-color: black;
+    /* fim da estilização da tabela */
 }
 footer{
+    /* estilização do rodapé */
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -92,8 +109,10 @@ footer{
 }
 footer a{
     text-decoration: none;
+    /* fim da estilização do rodapé */
 }
 @media (min-width:700px) {
+    /* estilização para o table */
     body{
         width: 70%;
     }
@@ -120,8 +139,10 @@ footer a{
     footer p{
         font-size: 1.6rem;
     }
+    /* fim da estilização do tablet */
 }
 @media (min-width: 1024px) {
+    /* ajustes para versão desktop */
     body{
         width: 50%;
     }
@@ -156,4 +177,5 @@ footer a{
     footer p{
         font-size: 1.6rem;
     }
+    /* fim da estilização do desktop */
 }
