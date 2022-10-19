@@ -16,10 +16,8 @@ body{
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(161, 212, 186) 100%);
     background-repeat: no-repeat;
-
     width: 90%;
     margin: auto;
-
     font-family: montserrat, sans-serif;
 }
 body::before{
@@ -49,7 +47,6 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin-top: 7rem;
 }
 .container img{
