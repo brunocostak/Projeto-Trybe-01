@@ -93,3 +93,67 @@ footer{
 footer a{
     text-decoration: none;
 }
+@media (min-width:700px) {
+    body{
+        width: 70%;
+    }
+    h1{
+        font-size: 3.6rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    .container img{
+        width: 50vw;
+        padding: 0 1.5rem 0;
+    }
+    .licoes{
+        display: flex;
+        justify-content: space-between;
+    }
+    .licoes ul li{
+        font-size: 1.8rem;
+    }
+    .container-article p{
+        font-size: 1.6rem;
+    }
+    footer p{
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 1024px) {
+    body{
+        width: 50%;
+    }
+    .container img{
+        width: 25vw;
+    }
+    h1{
+        font-size: 3.6rem;
+    }
+    h2{
+        font-size: 2.8rem;
+    }
+    h3{
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+    }
+    .licoes ul li{
+        font-size: 2.1rem;
+        line-height: 3rem;
+    }
+    .container-article{
+        display: flex;
+        gap: 3rem;
+    }
+    .container-article p{
+        font-size: 2.1rem;
+        line-height: 2.4rem;
+    }
+    .container-article h3 {
+        font-size: 2.8rem;
+    }
+    footer p{
+        font-size: 1.6rem;
+    }
+}
