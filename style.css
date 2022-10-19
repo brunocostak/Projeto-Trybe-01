@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* Setado font size de 10px padrão do navegador para ajustar a acessibilidade */
+    font-size: 62.5%;
+}
+body{
+    /* gradiente do fundo da página */
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(161, 212, 186) 100%);
+    background-repeat: no-repeat;
+
+    width: 90%;
+    margin: auto;
+
+    font-family: montserrat, sans-serif;
+}
+body::before{
+    content: "";
+    background-color: #2fa97c;
+    display: block;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}
+header{
+    padding-top: 15px;
+    z-index: 10;
+}
+h1{
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 7rem;
+}
+.container img{
+    width: 100vw;
+    padding: 0 1.5rem 0;
+}
+.licoes{
+    margin-top: 2rem;
+}
+.licoes ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    font-style: italic;
+    line-height: 2rem;
+}
+.container h2:nth-of-type(2){
+    margin-top: 1rem;
+}
+.container-article{
+    margin-top: 2rem;
+}
+footer{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+footer a{
+    text-decoration: none;
+}
